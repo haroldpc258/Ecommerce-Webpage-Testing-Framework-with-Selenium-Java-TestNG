@@ -1,0 +1,12 @@
+<suite name="Web Automation Suite">
+    <parameter name="url" value="https://www.saucedemo.com/"/>
+    <parameter name="browser" value="chrome" />
+    <parameter name="usernameInput" value="standard_user" />
+    <parameter name="passwordInput" value="secret_sauce"/>
+    <test name="SwagLabs Suite">
+        <classes>
+            <class name="com.globant.test.SwagLabsTest"/>
+        </classes>
+    </test>
+
+</suite>
